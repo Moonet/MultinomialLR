@@ -76,7 +76,7 @@ public class MultinomialLR {
                 
             }
             
-            //test for decreasing likelihood
+            //test for decreasing likelihood ,there is a problem need to be fixed
             if(loglike < loglike_old && iter >0){
                 System.out.print("\nLikelihood start decreasing.\n");
                 break;
